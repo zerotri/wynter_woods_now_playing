@@ -39,7 +39,7 @@ if( !function_exists("wynter_woods_now_playing")){
 
 				// Build up the final output. It would be better here to implement
 				// a settings page for this plugin to allow templating of the output.
-				$now_playing_output = "<p class=\"now-playing\">Now Playing: ".$now_playing_data."</p>";
+				$now_playing_output = "<p class=\"now-playing\">I am listening to: ".$now_playing_data."</p>";
 				$content .= $now_playing_output;
 			}
 		}
